@@ -1,0 +1,2 @@
+SELECT person.id, person.name, person.age,person.gender, person.address, pizzeria.id, pizzeria.name, pizzeria.rating from  person, pizzeria
+                                                                                                                     order by person.id, pizzeria.id;
