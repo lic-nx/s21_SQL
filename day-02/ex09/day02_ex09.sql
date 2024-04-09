@@ -1,3 +1,5 @@
+--Please find the names of all females who ordered both pepperoni and cheese pizzas (at any time and in any pizzerias). Make sure that the result is ordered by person name. The sample of data is presented below.
+
 SELECT p.name from person p
               join person_order po on p.id = po.person_id
               join menu m on m.id = po.menu_id
