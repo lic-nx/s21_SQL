@@ -1,1 +1,2 @@
+--Please make a select statement which returns the person's identifiers (without duplication) who visited pizzerias in a period from 6th of January 2022 to 9th of January 2022 (including all days) or visited pizzeria with identifier 2. Also include ordering clause by person identifier in descending mode.
 select DISTINCT person_id from person_visits where pizzeria_id = 2 or visit_date BETWEEN '2022-01-06' and '2022-01-09' order by person_id DESC;
