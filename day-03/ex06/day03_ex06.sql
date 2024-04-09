@@ -1,3 +1,5 @@
+-- Please find the same pizza names who have the same price, but from different pizzerias. Make sure that the result is ordered by pizza name. The sample of data is presented below. Please make sure your column names are corresponding column names below
+
 WITH pizza AS (
     SELECT m.pizza_name, pz.name, pz.id, m.price
     FROM menu m
